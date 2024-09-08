@@ -1,7 +1,7 @@
 {
     "functions": {
         "api/index.php": {
-            "runtime": "vercel-php@0.7.1"
+            "runtime": "vercel-php@0.6.2"
         }
     },
     "routes": [
@@ -16,7 +16,7 @@
       {
         "src": "/makecode.php",
         "dest": "/public/makecode.php"
-      },
+      },   
       {
         "src": "/(.*)",
         "dest": "/api/index.php"
