@@ -1,1 +1,3 @@
-# Reversing an MD5 hash (password cracking)
+# Reverse an md5 hash
+
+Reverse hash created using the `hash('md5', '<string>')` PHP function
